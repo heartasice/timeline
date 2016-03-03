@@ -17,31 +17,31 @@ msgstr ""
 
 #: ../404.php:3
 #, php-format
-msgid "You have found a missing time plot. %1$s Back in %2$s Home %3$s"
+msgid "Ada yang tidak beres. %1$s Kembali ke %2$s Beranda %3$s"
 msgstr ""
 
 #: ../index.php:15
-msgid "Page"
+msgid "Halaman"
 msgstr ""
 
 #: ../index.php:28
-msgid "&larr; Older posts"
+msgid "&larr; Lebih Lama"
 msgstr ""
 
 #: ../index.php:29
-msgid "Newer posts &rarr;"
+msgid "Lebih Baru &rarr;"
 msgstr ""
 
 #: ../lib/cleanup.php:193
-msgid "Continued"
+msgid "Lanjutkan"
 msgstr ""
 
 #: ../lib/custom.php:10
-msgid "Post Settings"
+msgid "Setelan Post"
 msgstr ""
 
 #: ../lib/custom.php:26
-msgid "Select Grid"
+msgid "Pilih Daftar"
 msgstr ""
 
 #: ../lib/custom.php:31
@@ -49,27 +49,27 @@ msgid "Normal"
 msgstr ""
 
 #: ../lib/custom.php:38
-msgid "Full"
+msgid "Penuh"
 msgstr ""
 
 #: ../lib/customizer.php:10
-msgid "Default"
+msgid "Standar"
 msgstr ""
 
 #: ../lib/customizer.php:35
-msgid "Get Start Button"
+msgid "Tombol Memulai"
 msgstr ""
 
 #: ../lib/customizer.php:47
-msgid "Site Favicon"
+msgid "Favicon"
 msgstr ""
 
 #: ../lib/customizer.php:54
-msgid "Custom Header"
+msgid "Kostum Header"
 msgstr ""
 
 #: ../lib/customizer.php:64
-msgid "Header Image"
+msgid "Gambar Header"
 msgstr ""
 
 #: ../lib/customizer.php:75
@@ -77,94 +77,94 @@ msgid "Header mask"
 msgstr ""
 
 #: ../lib/customizer.php:97
-msgid "Site title background"
+msgid "Latar Belakang"
 msgstr ""
 
 #: ../lib/customizer.php:104
-msgid "Custom Code"
+msgid "Kode Kostum"
 msgstr ""
 
 #: ../lib/customizer.php:114
-msgid "Header Code (Meta tags, CSS, etc ...)"
+msgid "Atas (Meta tags, CSS, etc ...)"
 msgstr ""
 
 #: ../lib/customizer.php:125
-msgid "Footer Code (Analytics, etc ...)"
+msgid "Bawah (Analytics, etc ...)"
 msgstr ""
 
 #: ../lib/init.php:11
-msgid "Primary Navigation"
+msgid "Navigasi Primer"
 msgstr ""
 
 #: ../lib/titles.php:19
 #, php-format
-msgid "Daily Archives: %s"
+msgid "Arsip Harian: %s"
 msgstr ""
 
 #: ../lib/titles.php:21
 #, php-format
-msgid "Monthly Archives: %s"
+msgid "Arsip Bulanan: %s"
 msgstr ""
 
 #: ../lib/titles.php:23
 #, php-format
-msgid "Yearly Archives: %s"
+msgid "Arsip Taunan: %s"
 msgstr ""
 
 #: ../lib/titles.php:26
 #, php-format
-msgid "Author Archives: %s"
+msgid "Arsip Penulis: %s"
 msgstr ""
 
 #: ../lib/titles.php:31
 #, php-format
-msgid "Search Results for %s"
+msgid "Pencarian untuk %s"
 msgstr ""
 
 #: ../lib/titles.php:33
-msgid "Not Found"
+msgid "Tidak Ditemukan"
 msgstr ""
 
 #: ../templates/comment.php:5
 #, php-format
-msgid "%1$s at %2$s"
+msgid "%1$s pada %2$s"
 msgstr ""
 
 #: ../templates/comment.php:11
-msgid "Your comment is awaiting moderation."
+msgid "Komentar kamu menunggu antrian moderator."
 msgstr ""
 
 #: ../templates/comment.php:19
 #, php-format
-msgid "%s Reply"
+msgid "%s Balas"
 msgstr ""
 
 #: ../templates/comment.php:21
 #, php-format
-msgid "%s edit"
+msgid "%s sunting"
 msgstr ""
 
 #: ../templates/comments.php:10
 #, php-format
-msgid "One Response to &ldquo; %2$s &rdquo;"
-msgid_plural "%1$s Responses to &ldquo; %2$s &rdquo;"
+msgid "Satu Balasan untuk; %2$s &rdquo;"
+msgid_plural "%1$s Balasan untuk &ldquo; %2$s &rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
 #: ../templates/comments.php:25
-msgid "&larr; Older comments"
+msgid "&larr; Komentar lebih lama"
 msgstr ""
 
 #: ../templates/comments.php:28
-msgid "Newer comments &rarr;"
+msgid "Komentar lebih baru &rarr;"
 msgstr ""
 
 #: ../templates/comments.php:36 ../templates/comments.php:45
-msgid "Comments are closed."
+msgid "Komentar Ditutup."
 msgstr ""
 
 #: ../templates/comments.php:57 ../templates/comments.php:58
-msgid "Name"
+msgid "Nama"
 msgstr ""
 
 #: ../templates/comments.php:62 ../templates/comments.php:63
@@ -176,47 +176,47 @@ msgid "Website"
 msgstr ""
 
 #: ../templates/comments.php:73
-msgid "Comment"
+msgid "Komentar"
 msgstr ""
 
 #: ../templates/comments.php:73
-msgid "Write your comment"
+msgid "Tulis komentar kamu"
 msgstr ""
 
 #: ../templates/content-none.php:4
-msgid "Nothing Found"
+msgid "Tidak menemukan apa apa"
 msgstr ""
 
 #: ../templates/content-none.php:7
 msgid ""
-"Apologies, but no results were found. Perhaps searching will help find a "
+"Opps.. Maaf, tapi tidak ada hasil yang ditemukan. Mungkin pencarian akan membantu menemukan "
 "related post."
 msgstr ""
 
 #: ../templates/content-single.php:11
-msgid "Pages:"
+msgid "Halaman:"
 msgstr ""
 
 #: ../templates/content.php:14
-msgid "Continue Reading &rarr;"
+msgid "Lanjutkan membaca &rarr;"
 msgstr ""
 
 #: ../templates/entry-meta.php:5
-msgid "By"
+msgid "Oleh"
 msgstr ""
 
 #: ../templates/entry-meta.php:9
-msgid "On"
+msgid "Pada"
 msgstr ""
 
 #: ../templates/entry-meta.php:11
-msgid "In"
+msgid "Di"
 msgstr ""
 
 #: ../templates/searchform.php:3 ../templates/searchform.php:6
-msgid "Search"
+msgid "Cari"
 msgstr ""
 
 #: ../templates/searchform.php:4
-msgid "Search for:"
+msgid "Pencarian untuk:"
 msgstr ""
