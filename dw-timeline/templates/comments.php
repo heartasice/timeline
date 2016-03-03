@@ -7,7 +7,7 @@
   <section id="comments">
     <h3>
       <?php 
-        printf( _n('One Response to &ldquo; %2$s &rdquo;', '%1$s Responses to &ldquo; %2$s &rdquo;', 
+        printf( _n('Satu balasan untuk &ldquo; %2$s &rdquo;', '%1$s Balasan untuk &ldquo; %2$s &rdquo;', 
           get_comments_number(), 'dw-timeline'), 
           number_format_i18n(get_comments_number()), 
           get_the_title()); 
@@ -22,10 +22,10 @@
     <nav>
       <ul class="pager">
         <?php if (get_previous_comments_link()) : ?>
-          <li class="previous"><?php previous_comments_link(__('&larr; Older comments', 'dw-timeline')); ?></li>
+          <li class="previous"><?php previous_comments_link(__('&larr; Lebih lama', 'dw-timeline')); ?></li>
         <?php endif; ?>
         <?php if (get_next_comments_link()) : ?>
-          <li class="next"><?php next_comments_link(__('Newer comments &rarr;', 'dw-timeline')); ?></li>
+          <li class="next"><?php next_comments_link(__('Lebih Baru &rarr;', 'dw-timeline')); ?></li>
         <?php endif; ?>
       </ul>
     </nav>
@@ -55,7 +55,7 @@
       'author' =>
         '<div class="form-group">' .
         '<label for="author">' . __( 'Name', 'dw-timeline' ) . '</label> ' .
-        '<input placeholder="' . __( 'Name', 'dw-timeline' ) . '" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
+        '<input placeholder="' . __( 'Nama', 'dw-timeline' ) . '" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
         '" class="form-control" /></div>',
 
       'email' =>
@@ -70,6 +70,6 @@
         '" class="form-control" /></div>'
       )
     ),
-    'comment_field' => '<div class="form-group"><label for="comment">' . __( 'Comment', 'dw-timeline' ) . '</label><textarea placeholder="' . __( 'Write your comment', 'dw-timeline' ) . '" name="comment" id="comment" class="form-control" rows="5" aria-required="true"></textarea></div>',
+    'comment_field' => '<div class="form-group"><label for="comment">' . __( 'Komentar', 'dw-timeline' ) . '</label><textarea placeholder="' . __( 'Tulis komentar kamu di sini', 'dw-timeline' ) . '" name="comment" id="comment" class="form-control" rows="5" aria-required="true"></textarea></div>',
   );
   comment_form($comments_args); ?>
