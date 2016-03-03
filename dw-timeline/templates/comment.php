@@ -8,7 +8,7 @@
   <div class="comment-content">
   <?php if ($comment->comment_approved == '0') : ?>
     <div class="alert alert-info">
-      <?php _e('Your comment is awaiting moderation.', 'dw-timeline'); ?>
+      <?php _e('Komentar kamu menunggu disetujui.', 'dw-timeline'); ?>
     </div>
   <?php endif; ?>
   <?php comment_text(); ?>
@@ -16,7 +16,7 @@
 
   <div class="comment-action">
     <?php comment_reply_link(array_merge(
-      array('reply_text'=> sprintf(__('%s Reply', 'dw-timeline'), '<i class="glyphicon glyphicon-share-alt"></i>')), 
+      array('reply_text'=> sprintf(__('%s Balas', 'dw-timeline'), '<i class="glyphicon glyphicon-share-alt"></i>')), 
       array('depth' => $depth, 'max_depth' => $args['max_depth']))); ?>
-    <?php edit_comment_link( sprintf(__('%s edit', 'dw-timeline'), '<i class="glyphicon glyphicon-pencil"></i>') ); ?>
+    <?php edit_comment_link( sprintf(__('%s sunting', 'dw-timeline'), '<i class="glyphicon glyphicon-pencil"></i>') ); ?>
   </div>
