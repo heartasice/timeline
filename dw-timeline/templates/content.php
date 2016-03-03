@@ -11,7 +11,7 @@
       <?php get_template_part('templates/entry-meta'); ?>
     </header>
     <div class="entry-content">
-      <?php the_content( __('Continue Reading &rarr;', 'dw-timeline') ); ?>
+      <?php the_content( __('Selengkapnya &rarr;', 'dw-timeline') ); ?>
     </div>
   </div>
 </article>
