@@ -6,7 +6,7 @@
     </header>
     <div class="entry-content">
       <?php the_content(); ?>
-      <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'dw-timeline'), 'after' => '</p></nav>')); ?>
+      <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Halaman:', 'dw-timeline'), 'after' => '</p></nav>')); ?>
     </div>
     <footer>
       <?php
